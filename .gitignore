@@ -1,0 +1,10 @@
+*.log
+!sample.log
+/health-check/health-check
+/docker-monitor/docker-monitor
+/log-analyzer/log-analyzer
+/disk-monitor/disk-monitor
+/pod-checker/pod-checker
+/server-inventory/server-inventory
+/deploy-cli/deploy-cli
+/api-agent/api-agent

@@ -1,0 +1,4 @@
+INFO server started
+ERROR database connection failed
+INFO retrying connection
+FATAL retries exhausted

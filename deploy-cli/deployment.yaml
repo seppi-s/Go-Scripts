@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: beginner-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: beginner-web
+  template:
+    metadata:
+      labels:
+        app: beginner-web
+    spec:
+      containers:
+        - name: web
+          image: nginx:1.28
+          ports:
+            - containerPort: 80
